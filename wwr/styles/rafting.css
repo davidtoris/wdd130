@@ -86,7 +86,7 @@ h1 {
   width: 125px;
 }
 
-article {
+.hero article {
   padding: 10px;
   position: absolute;
   bottom: 10px;
@@ -103,4 +103,8 @@ h2 {
   text-align: center;
   background-color: var(--accent2-color);
   padding: 10px 0;
+}
+
+footer p {
+  color: var(--secondary-color);
 }
