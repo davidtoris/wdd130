@@ -1,7 +1,5 @@
 :root {
   --primary-color: #055a05;
-  /* forest green */
-  --secondary-color: #f4a261;
   /* warm sand */
   --accent1-color: #264653;
   /* dark slate blue */
@@ -137,7 +135,7 @@ footer {
 }
 
 footer p {
-  color: var(--secondary-color);
+  color: #fff;
   margin-right: 20px;
 }
 
