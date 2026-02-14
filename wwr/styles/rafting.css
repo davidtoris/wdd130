@@ -132,6 +132,7 @@ footer {
   justify-content: flex-end;
   align-items: center;
   background: var(--accent1-color);
+  color: #fff;
 }
 
 footer p {
