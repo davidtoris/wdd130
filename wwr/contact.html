@@ -54,10 +54,13 @@
         <div class="form-group radio-group inline">
           <label>Message Purpose</label>
           <div class="radios">
-            <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
-            <label><input type="radio" name="purpose" value="reservation"> Reservation
+            <label><input type="radio" name="purpose" id="purpose-general" value="general"> General
+              Inquiry</label>
+            <label><input type="radio" name="purpose" id="purpose-reservation" value="reservation">
+              Reservation
               Question</label>
-            <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+            <label><input type="radio" name="purpose" id="purpose-suggestion" value="suggestion">
+              Website Suggestion</label>
           </div>
         </div>
         <div class="form-group">
@@ -65,7 +68,8 @@
           <textarea id="message" name="message" placeholder="Type here"></textarea>
         </div>
         <div class="form-group check-group">
-          <label><input type="checkbox" name="newsletter"> Please Subscribe me to the monthly
+          <label><input type="checkbox" name="newsletter" id="newsletter"> Please Subscribe me to
+            the monthly
             newsletter</label>
         </div>
         <button type="submit">Get in Touch!</button>
