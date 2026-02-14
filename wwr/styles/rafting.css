@@ -29,14 +29,14 @@ footer {
   margin: 0 auto;
 }
 
-header {
+/* header {
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 120px 1fr 1fr;
   align-items: center;
   border-bottom: 1px solid #ccc;
   max-width: 1000px;
-}
+} */
 
 h1,
 h2 {
@@ -52,8 +52,12 @@ article {
   padding: 8px;
 }
 
-.social-media a {
+.socialmedia a {
   text-decoration: none;
+}
+
+.hero {
+  position: relative;
 }
 
 .hero img {
@@ -71,10 +75,22 @@ h1 {
   opacity: 0.7;
   background-color: var(--accent1-color);
   color: #fff;
-  /* white text – make sure there is enough contrast with the background-color */
 }
 
 .hero article img {
   float: right;
   width: 125px;
+}
+
+article {
+  padding: 10px;
+  position: absolute;
+  bottom: 10px;
+  opacity: 0.8;
+  background-color: var(--accent1-color);
+  color: #fff;
+}
+
+article img {
+  margin-left: 10px;
 }
